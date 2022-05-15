@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ava Fashion</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/detail.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
-    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/filter.css">
 </head>
 
 <body>
@@ -24,7 +23,7 @@
                     </div>
                     <div class="header__navbar">
                         <ul class="header__navbar-list">
-                            <li class="header__navbar-item">
+                            <li class="header__navbar-item active">
                                 <a href="" class="header__navbar-link">Nữ</a>
                                 <div class="header-sub">
                                     <div class="header-sub-menu">
@@ -437,430 +436,280 @@
                 </div>
             </div>
         </header>
-        <div class="container grid wide">
-            <ul class="breadcrumb">
-                <li>
-                    <a href="/thoi-trang-nu">Thời trang nữ</a>
-                    <meta property="position" content="1">
-                </li>
-                <li>
-                    <a href="/vay-dam-nu">Váy đầm nữ</a>
-                </li>
-        </ul>
-            <div class="container-detail row">
-                <div class="detail-left col l-6">
-                    <div class="main">
-                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-1-1.jpg"
-                            alt="" class="img-feature image-item">
-                        <div class="control prev">
-                            <i class="bx bx-chevron-left"></i>
-                        </div>
-                        <div class="control next">
-                            <i class="bx bx-chevron-right"></i>
-                        </div>
+        <div class="container-filter grid wide">
+            <div class="box-filter">
+                <div class="filter-total">
+                    <div class="filter-item__title">
+                        <i class="icon-filter"></i>
+                        Lọc
                     </div>
-                    <div class="list-image">
-                        <div>
-                            <img class="image-item"
-                                src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-1-1.jpg"
-                                alt="">
-                        </div>
-                        <div>
-                            <img class="image-item"
-                                src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-3-1.jpg"
-                                alt="">
-                        </div>
-                        <div>
-                            <img class="image-item"
-                                src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1.jpg"
-                                alt="">
-                        </div>
-                        <div>
-                            <img class="image-item"
-                                src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-5.jpg"
-                                alt="">
-                        </div>
-                        <div>
-                            <img class="image-item"
-                                src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-6.jpg"
-                                alt="">
-                        </div>
-                        <div>
-                            <img class="image-item"
-                                src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-7.jpg"
-                                alt="">
-                        </div>
-                        <div>
-                            <img class="image-item"
-                                src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-8.jpg"
-                                alt="">
-                        </div>
 
-
+                </div>
+                <div class="filter-item">
+                    <div class="filter-item__title jsTitle">
+                        <div class="arrow-filter"></div>
+                        <span>Giá</span>
                     </div>
                 </div>
-                <div class="detail-right col l-6">
-                    <div class="box_productInfor">
-                        <div class="detail-title">
-                            <h3>
-                                Đầm nữ cổ tim AVAFashion TTP - Hồng
-                            </h3>
-                        </div>
-                        <div class="detail-top">
-                            <span class="product-code">Mã sản phẩm: 264202</span>
-                        </div>
-                        <div class="detail-price">
-                            <span class="price-current">196.000₫</span>
-                            <span class="price-old">490.000₫</span>
-                            <span class="price-percent">-60%</span>
-                        </div>
-                        <div class="select-color">
-                            <p class="select-color-ttl">
-                                Chọn màu:
-                                <span>Hồng</span>
-                            </p>
-                            <ul>
-                                <li class="act">
-                                    <div class="imgPro">
-                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-3-200x200.jpg"
-                                            alt="Hồng" class=" ls-is-cached lazyloaded">
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="select-size">
-                            <div class="size-top">
-                                <p class="size-top-left">Chọn size: <span>S</span></p>
+                <div class="filter-item">
+                    <div class="filter-item__title">
+                        <div class="arrow-filter"></div>
+                        <span>Loại sản phẩm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="category-filter">
+                <div class="box-sort">
+                    <p class="sort-total"><b>52</b> Váy đầm nữ <strong class="manu-sort"></strong></p>
+                    <div class="box-checkbox">
+                        <a href="javascript:;" class="c-checkitem">
+                            <span class="tick-checkbox"></span>
+                            <p>Giảm giá</p>
+                        </a>
+                    </div>
+                    <div class="sort-select">
+                        <p class="click-sort">
+                            Xếp theo: 
+                            <div class="sort-show">
+                                Nổi bật
                             </div>
-                            <ul class="size-list">
-                                <li class="size-list-item active">
-                                    S
-                                </li>
-                                <li class="size-list-item">
-                                    M
-                                </li>
-                                <li class="size-list-item">
-                                    L
-                                </li>
-                                <li class="size-list-item">
-                                    XL
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="box-promo">
-                            <p class="box-promo-txt">Khuyến mãi (Đến 31/05)</p>
-                            <ul class="box-promo-list">
-                                <li class="box-promo-item">
-                                    Nhập mã&nbsp;AVAFASHION&nbsp;giảm 10% tối đa 100.000đ cho đơn hàng từ 300.000đ trở
-                                    lên khi thanh toán qua Ví Moca trên ứng dụng Grab
-                                </li>
-                                <li class="box-promo-item">
-                                    Nhập mã&nbsp;AVA50&nbsp;giảm 10% tối đa 50.000đ khi thanh toán quét QRcode qua App
-                                    của ngân hàng
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="detail-btn">
-                            <a href="" class="btn btn-addcart">
-                                <p class="txt">Thêm vào giỏ</p>
-                            </a>
-                            <span class="btn btn-spmarket">Xem cửa hàng còn hàng</span>
-                        </div>
-                        <div class="policy">
-                            <li class="doitra ">
-                                <div class="iconl">
-                                    <i class="icon-doitra"></i>
-                                </div>
-                                <p>Đổi trả <b>30 ngày</b> (với sản phẩm chưa sử dụng)
-                                    <a href=""> Xem chi tiết </a>
-                                </p>
-                            </li>
-                            <li class="doitra ">
-                                <div class="iconl">
-                                    <i class="icon-cod"></i>
-                                </div>
-                                <p>Giao hàng thu tiền, thanh toán online nhiều phương thức</p>
-                            </li>
-                            <li class="doitra ">
-                                <div class="iconl">
-                                    <i class="icon-phone"></i>
-                                </div>
-                                <p>Tổng đài: <a href="tel:1900866673">1900.866.673</a> (7h30 - 22h00)</p>
-                            </li>
-                        </div>
-                        <div class="highlights">
-                            <li>Chất liệu Viscose hoa - 100% polyester.</li>
-                            <li>Form <a href="http://www.avafashion.com/vay-dam-nu-dam">đầm nữ</a> xòe cùng&nbsp;thiết
-                                kế nơ cánh tay nữ tính.</li>
-                            <li><a href="http://www.avafashion.com/vay-dam-nu">Váy đầm nữ</a> với dáng cổ tim giúp tôn
-                                lên đường cong của người mặc.</li>
-                            <li>Sản phẩm <a
-                                    href="https://www.avafashion.com/vay-dam-nu/dam-nu-co-tim-avafashion-ttp-hong">đầm
-                                    nữ cổ tim ttp hồng</a> có&nbsp;bề mặt mịn màng, thoáng mát, phù hợp với nhiều hoạt
-                                động khác nhau.</li>
-                            <li>Thương hiệu AVAFashion đến từ Việt Nam.</li>
-                        </div>
-                        <div class="parameter">
-                            <p class="parameter-title info-title">Thông tin chi tiết</p>
-                            <div class="parameter-content info-content">
-                                <ul class="parameter-article info-article ">
-                                    <li>
-                                        <p class="txt01">Người sử dụng</p>
-                                        <p class="txt02">Nữ</p>
-                                    </li>
-
-                                    <li>
-                                        <p class="txt01">Loại sản phẩm</p>
-                                        <p class="txt02">Đầm</p>
-                                    </li>
-                                    <li>
-                                        <p class="txt01">Kiểu dáng</p>
-                                        <p class="txt02">Xòe</p>
-                                    </li>
-                                    <li>
-                                        <p class="txt01">Chất liệu vải</p>
-                                        <p class="txt02">Viscose hoa - 100% polyester</p>
-                                    </li>
-                                    <li>
-                                        <p class="txt01">Sản xuất tại</p>
-                                        <p class="txt02">Việt Nam</p>
-                                    </li>
-
-                                    <li>
-                                        <p class="txt01">Thương hiệu</p>
-                                        <p class="txt02">AVAFashion (Việt Nam)</p>
-                                    </li>
-
-                                </ul>
-                            </div>
+                        </p>
+                        <div class="sort-select-main sort">
+                            <p><a href="javascript:;" class="check" data-id="9"><i></i>Nổi bật</a></p>
+                            <p><a href="javascript:;" class="" data-id="8"><i></i>Hàng mới về</a></p>
+                            <p><a href="javascript:;" class="" data-id="5"><i></i>% Giảm</a></p>
+                            <p><a href="javascript:;" class="" data-id="3"><i></i>Giá cao đến thấp</a></p>
+                            <p><a href="javascript:;" class="" data-id="2"><i></i>Giá thấp đến cao</a></p>
                         </div>
                     </div>
                 </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-        <section class="wraplock grid wide">
-            <p class="detail-product-ttl">Có thể bạn thích</p>
-            <div class="promo-listProduct-product row ">
-                <div class="promo-product col l-3 ">
-                    <li class="product-item">
-                        <a href="" class="product-item__link">
-                            <div class="item-wrap">
-                                <div class="product-item__img">
-
-                                    <img src="https://cdn.tgdd.vn/Products/Images/10239/276138/chan-vay-caro-midi-avafashion-nb01-kem-5-1-600x600.jpg"
-                                        alt="Samsung Galaxy S10 Plus" class="product-item__img">
+        <div class="container-product-box">
+            <section class="wraplock grid wide">
+               
+                <div class="promo-listProduct-product row ">
+                    <div class="promo-product col l-3 ">
+                        <li class="product-item">
+                            <a href="" class="product-item__link">
+                                <div class="item-wrap">
+                                    <div class="product-item__img">
+    
+                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-600x600.jpg"
+                                            alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <h3 class="product-item-heading">Chân váy caro midi - Kem </h3>
-                            <div class="product-item-price">
-                                <p class="product-item-price-current">
-                                    279.000₫
-                                </p>
-                                <p class="product-item-price-old">
-                                    399.000₫
-                                </p>
-                                <span class="lb-percent">-30%</span>
-
-                            </div>
-                        </a>
-
-                    </li>
-
-
-                </div>
-                <div class="promo-product col l-3 ">
-                    <li class="product-item">
-                        <a href="" class="product-item__link">
-                            <div class="item-wrap">
-                                <div class="product-item__img">
-
-                                    <img src="https://cdn.tgdd.vn/Products/Images/10239/276138/chan-vay-caro-midi-avafashion-nb01-kem-5-1-600x600.jpg"
-                                        alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                <h3 class="product-item-heading">Đầm nữ cổ tim - Hồng </h3>
+                                <div class="product-item-price">
+                                    <p class="product-item-price-current">
+                                        196.000₫
+                                    </p>
+                                    <p class="product-item-price-old">
+                                        490.000₫
+                                    </p>
+                                    <span class="lb-percent">-60%</span>
+    
                                 </div>
-                            </div>
-                            <h3 class="product-item-heading">Chân váy caro midi - Kem </h3>
-                            <div class="product-item-price">
-                                <p class="product-item-price-current">
-                                    279.000₫
-                                </p>
-                                <p class="product-item-price-old">
-                                    399.000₫
-                                </p>
-                                <span class="lb-percent">-30%</span>
-
-                            </div>
-                        </a>
-
-                    </li>
-
-
-                </div>
-                <div class="promo-product col l-3 ">
-                    <li class="product-item">
-                        <a href="" class="product-item__link">
-                            <div class="item-wrap">
-                                <div class="product-item__img">
-
-                                    <img src="https://cdn.tgdd.vn/Products/Images/10239/276138/chan-vay-caro-midi-avafashion-nb01-kem-5-1-600x600.jpg"
-                                        alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                            </a>
+    
+                        </li>
+    
+    
+                    </div>
+    
+                    <div class="promo-product col l-3">
+                        <li class="product-item">
+                            <a href="" class="product-item__link">
+                                <div class="item-wrap">
+                                    <div class="product-item__img">
+    
+                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-600x600.jpg"
+                                            alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <h3 class="product-item-heading">Chân váy caro midi - Kem </h3>
-                            <div class="product-item-price">
-                                <p class="product-item-price-current">
-                                    279.000₫
-                                </p>
-                                <p class="product-item-price-old">
-                                    399.000₫
-                                </p>
-                                <span class="lb-percent">-30%</span>
-
-                            </div>
-                        </a>
-
-                    </li>
-
-
-                </div>
-                <div class="promo-product col l-3 ">
-                    <li class="product-item">
-                        <a href="" class="product-item__link">
-                            <div class="item-wrap">
-                                <div class="product-item__img">
-
-                                    <img src="https://cdn.tgdd.vn/Products/Images/10239/276138/chan-vay-caro-midi-avafashion-nb01-kem-5-1-600x600.jpg"
-                                        alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                <h3 class="product-item-heading">Đầm nữ cổ tim - Hồng </h3>
+                                <div class="product-item-price">
+                                    <p class="product-item-price-current">
+                                        196.000₫
+                                    </p>
+                                    <p class="product-item-price-old">
+                                        490.000₫
+                                    </p>
+                                    <span class="lb-percent">-60%</span>
+    
                                 </div>
-                            </div>
-                            <h3 class="product-item-heading">Chân váy caro midi - Kem </h3>
-                            <div class="product-item-price">
-                                <p class="product-item-price-current">
-                                    279.000₫
-                                </p>
-                                <p class="product-item-price-old">
-                                    399.000₫
-                                </p>
-                                <span class="lb-percent">-30%</span>
-
-                            </div>
-                        </a>
-
-                    </li>
-
-
-                </div>
-                <div class="promo-product col l-3 ">
-                    <li class="product-item">
-                        <a href="" class="product-item__link">
-                            <div class="item-wrap">
-                                <div class="product-item__img">
-
-                                    <img src="https://cdn.tgdd.vn/Products/Images/10239/276138/chan-vay-caro-midi-avafashion-nb01-kem-5-1-600x600.jpg"
-                                        alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                            </a>
+    
+                        </li>
+    
+    
+                    </div>
+                    <div class="promo-product col l-3">
+                        <li class="product-item">
+                            <a href="" class="product-item__link">
+                                <div class="item-wrap">
+                                    <div class="product-item__img">
+    
+                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-600x600.jpg"
+                                            alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <h3 class="product-item-heading">Chân váy caro midi - Kem </h3>
-                            <div class="product-item-price">
-                                <p class="product-item-price-current">
-                                    279.000₫
-                                </p>
-                                <p class="product-item-price-old">
-                                    399.000₫
-                                </p>
-                                <span class="lb-percent">-30%</span>
-
-                            </div>
-                        </a>
-
-                    </li>
-
-
-                </div>
-                <div class="promo-product col l-3 ">
-                    <li class="product-item">
-                        <a href="" class="product-item__link">
-                            <div class="item-wrap">
-                                <div class="product-item__img">
-
-                                    <img src="https://cdn.tgdd.vn/Products/Images/10239/276138/chan-vay-caro-midi-avafashion-nb01-kem-5-1-600x600.jpg"
-                                        alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                <h3 class="product-item-heading">Đầm nữ cổ tim - Hồng </h3>
+                                <div class="product-item-price">
+                                    <p class="product-item-price-current">
+                                        196.000₫
+                                    </p>
+                                    <p class="product-item-price-old">
+                                        490.000₫
+                                    </p>
+                                    <span class="lb-percent">-60%</span>
+    
                                 </div>
-                            </div>
-                            <h3 class="product-item-heading">Chân váy caro midi - Kem </h3>
-                            <div class="product-item-price">
-                                <p class="product-item-price-current">
-                                    279.000₫
-                                </p>
-                                <p class="product-item-price-old">
-                                    399.000₫
-                                </p>
-                                <span class="lb-percent">-30%</span>
-
-                            </div>
-                        </a>
-
-                    </li>
-
-
-                </div>
-                <div class="promo-product col l-3 ">
-                    <li class="product-item">
-                        <a href="" class="product-item__link">
-                            <div class="item-wrap">
-                                <div class="product-item__img">
-
-                                    <img src="https://cdn.tgdd.vn/Products/Images/10239/276138/chan-vay-caro-midi-avafashion-nb01-kem-5-1-600x600.jpg"
-                                        alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                            </a>
+    
+                        </li>
+    
+    
+                    </div>
+                    <div class="promo-product col l-3">
+                        <li class="product-item">
+                            <a href="" class="product-item__link">
+                                <div class="item-wrap">
+                                    <div class="product-item__img">
+    
+                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-600x600.jpg"
+                                            alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                    </div>
                                 </div>
-                            </div>
-                            <h3 class="product-item-heading">Chân váy caro midi - Kem </h3>
-                            <div class="product-item-price">
-                                <p class="product-item-price-current">
-                                    279.000₫
-                                </p>
-                                <p class="product-item-price-old">
-                                    399.000₫
-                                </p>
-                                <span class="lb-percent">-30%</span>
-
-                            </div>
-                        </a>
-
-                    </li>
-
-
-                </div>
-                <div class="promo-product col l-3 ">
-                    <li class="product-item">
-                        <a href="" class="product-item__link">
-                            <div class="item-wrap">
-                                <div class="product-item__img">
-
-                                    <img src="https://cdn.tgdd.vn/Products/Images/10239/276138/chan-vay-caro-midi-avafashion-nb01-kem-5-1-600x600.jpg"
-                                        alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                <h3 class="product-item-heading">Đầm nữ cổ tim - Hồng </h3>
+                                <div class="product-item-price">
+                                    <p class="product-item-price-current">
+                                        196.000₫
+                                    </p>
+                                    <p class="product-item-price-old">
+                                        490.000₫
+                                    </p>
+                                    <span class="lb-percent">-60%</span>
+    
                                 </div>
-                            </div>
-                            <h3 class="product-item-heading">Chân váy caro midi - Kem </h3>
-                            <div class="product-item-price">
-                                <p class="product-item-price-current">
-                                    279.000₫
-                                </p>
-                                <p class="product-item-price-old">
-                                    399.000₫
-                                </p>
-                                <span class="lb-percent">-30%</span>
-
-                            </div>
-                        </a>
-
-                    </li>
-
-
+                            </a>
+    
+                        </li>
+    
+                    </div>
+                    <div class="promo-product col l-3 ">
+                        <li class="product-item">
+                            <a href="" class="product-item__link">
+                                <div class="item-wrap">
+                                    <div class="product-item__img">
+    
+                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-600x600.jpg"
+                                            alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                    </div>
+                                </div>
+                                <h3 class="product-item-heading">Đầm nữ cổ tim - Hồng </h3>
+                                <div class="product-item-price">
+                                    <p class="product-item-price-current">
+                                        196.000₫
+                                    </p>
+                                    <p class="product-item-price-old">
+                                        490.000₫
+                                    </p>
+                                    <span class="lb-percent">-60%</span>
+    
+                                </div>
+                            </a>
+    
+                        </li>
+    
+    
+                    </div>
+    
+                    <div class="promo-product col l-3">
+                        <li class="product-item">
+                            <a href="" class="product-item__link">
+                                <div class="item-wrap">
+                                    <div class="product-item__img">
+    
+                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-600x600.jpg"
+                                            alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                    </div>
+                                </div>
+                                <h3 class="product-item-heading">Đầm nữ cổ tim - Hồng </h3>
+                                <div class="product-item-price">
+                                    <p class="product-item-price-current">
+                                        196.000₫
+                                    </p>
+                                    <p class="product-item-price-old">
+                                        490.000₫
+                                    </p>
+                                    <span class="lb-percent">-60%</span>
+    
+                                </div>
+                            </a>
+    
+                        </li>
+    
+    
+                    </div>
+                    <div class="promo-product col l-3">
+                        <li class="product-item">
+                            <a href="" class="product-item__link">
+                                <div class="item-wrap">
+                                    <div class="product-item__img">
+    
+                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-600x600.jpg"
+                                            alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                    </div>
+                                </div>
+                                <h3 class="product-item-heading">Đầm nữ cổ tim - Hồng </h3>
+                                <div class="product-item-price">
+                                    <p class="product-item-price-current">
+                                        196.000₫
+                                    </p>
+                                    <p class="product-item-price-old">
+                                        490.000₫
+                                    </p>
+                                    <span class="lb-percent">-60%</span>
+    
+                                </div>
+                            </a>
+    
+                        </li>
+    
+    
+                    </div>
+                    <div class="promo-product col l-3">
+                        <li class="product-item">
+                            <a href="" class="product-item__link">
+                                <div class="item-wrap">
+                                    <div class="product-item__img">
+    
+                                        <img src="https://cdn.tgdd.vn/Products/Images/10239/264202/dam-nu-co-tim-avafashion-ttp-hong-4-1-2-600x600.jpg"
+                                            alt="Samsung Galaxy S10 Plus" class="product-item__img">
+                                    </div>
+                                </div>
+                                <h3 class="product-item-heading">Đầm nữ cổ tim - Hồng </h3>
+                                <div class="product-item-price">
+                                    <p class="product-item-price-current">
+                                        196.000₫
+                                    </p>
+                                    <p class="product-item-price-old">
+                                        490.000₫
+                                    </p>
+                                    <span class="lb-percent">-60%</span>
+    
+                                </div>
+                            </a>
+    
+                        </li>
+    
+                    </div>
                 </div>
-        
-            </div>
-            
-        </section>
+                <a href="" class="load-more">Xem thêm</a>
+            </section>
+        </div>
         <div class="commitment ">
             <ul class="commitment-list row">
                 <li class="commitment-list-item col l-4">
@@ -976,7 +825,6 @@
             </section>
         </footer>
     </div>
-    <script src="./assets/js/detail.js"></script>
 </body>
 
 </html>

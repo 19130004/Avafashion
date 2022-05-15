@@ -1,0 +1,188 @@
+.clearfix {
+    display: block;
+}
+[class^="icon-"], [class*="icon-"] {
+    background-image: url(//cdn.tgdd.vn/mwgcart/stag-bluefashion/images/common/icon-bluefashion_desktop.png?v=2);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 505px 117px;
+}
+.box-filter{
+    background: #f8f9fa;
+}
+.box-filter {
+    position: relative;
+    font-size: 0;
+    padding: 8px;
+    padding-bottom: 0;
+}
+.filter-item, .filter-total {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 8px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.filter-item__title {
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 10px 8px 5px;
+    padding-right: 23px;
+}
+.filter-total i {
+    margin-right: 5px;
+}
+.icon-filter {
+    background-position: 0 -67px;
+    height: 15px;
+    width: 15px;
+}
+.filter-item::after, .filter-total::after {
+    position: absolute;
+    content: "";
+    height: 15px;
+    border-right: 1px solid #d5d6db;
+    top: 9px;
+    right: 0;
+}
+.filter-item__title span::before {
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+    content: '';
+    height: 5px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 5px;
+    transform: rotate(135deg);
+    border-top-right-radius: 2px;
+}
+.category-filter{
+    padding-bottom: 50px;
+}
+.box-sort {
+    margin: 10px 0;
+    display: block;
+    overflow: visible;
+}
+.sort-total {
+    float: left;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+.box-checkbox {
+    float: left;
+    margin: 0 0 15px;
+}
+.box-checkbox .c-checkitem:first-child {
+    margin-left: 25px;
+}
+.box-checkbox .c-checkitem:last-child {
+    margin-right: 0;
+}
+.c-checkitem{
+    text-decoration: none;
+}
+.c-checkitem .tick-checkbox {
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+}
+.c-checkitem .tick-checkbox, .c-checkitem p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.box-checkbox .c-checkitem p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+.sort-select {
+    float: right;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sort-select:hover .sort-select-main {
+    display: block;
+}
+.sort-select .click-sort {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 6px 10px 6px 8px;
+}
+.sort-select .sort-show {
+    padding-right: 12px;
+    position: relative;
+    color: #000;
+}
+.sort-select .sort-show::before {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #333;
+    content: '';
+    height: 0;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 0;
+}
+.sort-select-main {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+    display: none;
+    position: absolute;
+    padding: 0 7px;
+    top: 30px;
+    right: 0;
+    width: 160px;
+    z-index: 2;
+}
+.sort-select-main p {
+    border-bottom: 1px solid #f1f1f1;
+}
+.sort a {
+    color: #000;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 11px 3px;
+    display: block;
+    text-decoration: none;
+}
+.sort a.check i, .sort-pk a.check i {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+.sort a.check i::after, .sort-pk a.check i::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3px;
+    top: -4px;
+    width: 6px;
+    height: 10px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}

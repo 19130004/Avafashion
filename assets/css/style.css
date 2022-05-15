@@ -214,23 +214,40 @@
 
 .banner-img {
     position: relative;
+    background-color: #FFF5EF;
 }
 
 .slider {
-    width: 100%;
-}
-
-.slider__item {
-    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 1200px;
     background-color: #FFF5EF;
-    margin: auto;
+    margin: 0 auto;
+    
+}
+.slider-wrap{
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
     display: flex;
-    justify-content: center;
+}
+.slider__item {
+    background-color: #FFF5EF;
+    position: relative;
+    height: 100%;
+   
 }
 
 .slider__item img {
     width: 1200px;
     height: 400px;
+    display: flex;
 }
 
 .trigger {
@@ -344,7 +361,13 @@
 .promo .common-tab {
     margin-top: 15px;
 }
-
+.promo-data{
+    overflow: hidden;
+    position: relative;
+}
+.promo-product-list{
+    display: flex;
+}
 .common-tab {
     display: flex;
     justify-content: center;
@@ -383,8 +406,16 @@
 }
 
 .promo-listProduct {
-    display: flex;
     position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+    display: flex;
+   
 }
 
 .promo-product {
